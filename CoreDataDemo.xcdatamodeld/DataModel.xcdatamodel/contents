@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Employees" representedClassName="Employees" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TblSignUp" representedClassName=".TblSignUp" syncable="YES" codeGenerationType="class">
+        <attribute name="degree" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="mobileno" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="profilepic" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="Employees" positionX="-63" positionY="36" width="128" height="118"/>
+        <element name="TblSignUp" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>
